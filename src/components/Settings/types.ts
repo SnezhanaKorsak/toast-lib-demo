@@ -17,5 +17,5 @@ export type Options = {
 };
 
 export type OptionsProps = {
-  changeSettings: (option: string, value: string) => void
+  changeSettings: (option: string, value: string | number) => void
 }

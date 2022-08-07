@@ -11,6 +11,7 @@ export const StyledSettings = styled.div`
   align-items: center;
   border: 1px solid;
   border-radius: ${theme.borderRadius[1]}px;
+  box-shadow: ${theme.boxShadows[0]};
   padding: ${theme.spaces[4]}px;
 `;
 
@@ -26,6 +27,14 @@ export const StyledOptions = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-bottom: ${theme.spaces[2]}px;
-
- 
+`
+export const Button = styled.button`
+  background-color: ${theme.colors.pink};
+  padding: ${theme.spaces[1]}px;
+  border: none;
+  border-radius: ${theme.borderRadius[0]}px;
+  outline: none;
+  font-size: ${theme.fontSizes[3]}px;
+  color: ${theme.colors.white};
+  cursor: pointer;
 `

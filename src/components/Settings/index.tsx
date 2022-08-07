@@ -1,9 +1,14 @@
 import React, {useState} from "react";
 import {ToastProvider, useToastService} from "@snega_k/toast-lib";
+
+
+import TypeSettings from "../TypeSettings";
+import PositionSettings from "../PositionSettings";
+import OptionsSettings from "../OptionsSettings";
+
 import {Options} from "./types"
-import TypeSettings from "../Type";
-import {StyledSettings, Title} from "./styled";
-import PositionSettings from "../Position";
+import {Button, StyledSettings, Title} from "./styled";
+
 
 const defaultSettings: Options = {
   mode: 'info',
@@ -31,8 +36,8 @@ const Settings = () => {
     createToast(mode, settings);
   }
 
-  const changeSettings = (option: string, value: string) => {
-     setSettings({...settings, [option]: value})
+  const changeSettings = (option: string, value: string | number) => {
+    setSettings({...settings, [option]: value})
   }
 
   return (
@@ -40,7 +45,8 @@ const Settings = () => {
       <Title>Settings</Title>
       <TypeSettings changeSettings={changeSettings}/>
       <PositionSettings changeSettings={changeSettings}/>
-      <button onClick={addToast}>Click</button>
+      <OptionsSettings changeSettings={changeSettings}/>
+      <Button onClick={addToast}>Show Toast</Button>
       <ToastProvider {...settings}/>
     </StyledSettings>
   )

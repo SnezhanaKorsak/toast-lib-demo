@@ -1,7 +1,8 @@
 import React, {ChangeEvent} from "react";
-import {StyledOptions} from "../Settings/styled";
+
 import {OptionsProps} from "../Settings/types";
-import {Input, Label} from "../Type/styled";
+import {StyledOptions} from "../Settings/styled";
+import {Input, Label} from "../TypeSettings/styled";
 
 const PositionSettings: React.FC<OptionsProps> = ({changeSettings}) => {
 
