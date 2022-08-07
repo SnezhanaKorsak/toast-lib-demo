@@ -1,12 +1,15 @@
 import React from 'react';
-import './App.css';
+import Settings from "./components/Settings";
+import {PageLayout} from "./components/PageLayout";
+
 
 const App = () => {
+
   return (
-    <div className="app">
-      Start
-    </div>
+    <PageLayout>
+      <Settings/>
+    </PageLayout>
   )
-};
+}
 
 export default App;
