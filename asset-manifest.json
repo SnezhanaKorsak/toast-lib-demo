@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/toast-lib-demo/static/js/main.60b9e32a.js",
+    "static/media/error.svg": "/toast-lib-demo/static/media/error.a82fe60cca678ad06f192a0ccdd76a73.svg",
+    "static/media/warning.svg": "/toast-lib-demo/static/media/warning.3bc0e1a63e8c049636296d3dc94ba44a.svg",
+    "static/media/info.svg": "/toast-lib-demo/static/media/info.62329302a7834e4ea6b2a3cdaaf07dc5.svg",
+    "static/media/success.svg": "/toast-lib-demo/static/media/success.41ba70d880436ee408dcedfef6026da2.svg",
+    "index.html": "/toast-lib-demo/index.html",
+    "static/media/close.svg": "/toast-lib-demo/static/media/close.5bd88c04cd8fdef473878a5ef48cf141.svg",
+    "main.60b9e32a.js.map": "/toast-lib-demo/static/js/main.60b9e32a.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.60b9e32a.js"
+  ]
+}
