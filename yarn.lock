@@ -2629,10 +2629,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@snega_k/toast-lib@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@snega_k/toast-lib/-/toast-lib-0.1.0.tgz#e94413ec13ff84f12f6198520adf3c3ee2dbe108"
-  integrity sha512-SSW+drdNjKf/M4WyVU7sQINu1kWBEroMQuk3E6UMctm50F2BUHFcjovWr9cGuvGuh0H4pjnVaWc6dyjynaCK6w==
+"@snega_k/toast-lib@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@snega_k/toast-lib/-/toast-lib-1.0.0.tgz#8bd39cb800dcc7db942fc2059803c45c3c2e16f1"
+  integrity sha512-uin0nGtfe5qUEU66mrvjTtB+PCKzC/ZxVANIz6/QQEmUATBKNyk7ElwOKVN29qKhuKUrBeMyRKNebgDlE4sZ2Q==
   dependencies:
     "@testing-library/jest-dom" "^5.14.1"
     "@testing-library/react" "^13.0.0"
